@@ -19,12 +19,12 @@
 
 react.js:
 
-```
+```javascript
 import dg from "dg-url";
 
 let url = //your shared photo's url (google drive or dropbox);
 
-<img src={dg(url)} / >
+<img src={ dg(url) } / >
 
 ```
 

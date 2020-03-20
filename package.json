@@ -4,7 +4,7 @@
   "description": "Reform google drive and dropbox urls so you can host your photos on gDrive or dropbox then use them directly in your html code for img.src attribuite. ",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",

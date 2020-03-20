@@ -7,14 +7,27 @@
  
  Reform google drive and dropbox urls so you can host your photos on gDrive or dropbox then use them directly in your html code for img.src attribuite.
 
+ dg-url is a client side function.
+
 
 
 ## installation 
  
  ``` npm i dg-url ```
  
- 
- 
+## usage:
+
+react.js:
+
+```
+import dg from "dg-url";
+
+let url = //your shared photo's url (google drive or dropbox);
+
+<img src={dg(url)} / >
+
+```
+
  ## contact
  https://www.ahmad-ali.co.uk/
  

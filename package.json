@@ -11,12 +11,11 @@
     "url": "git+https://github.com/aa947/dg-url.git"
   },
   "keywords": [
-    "google",
-    "drive",
+    "google drive",
     "dropbox",
     "url",
-    "photo",
-    "hosting"
+    "photo hosting", 
+    "front-end"
   ],
   "author": "Ahmad Ali <aallii300300@gmail.com> (https://www.ahmad-ali.co.uk/)",
   "license": "ISC",

@@ -1,6 +1,6 @@
 {
   "name": "dg-url",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Reform google drive and dropbox urls so you can host your photos on gDrive or dropbox then use them directly in your html code for img.src attribuite. ",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "google drive",
     "dropbox",
     "url",
-    "photo hosting", 
+    "photo hosting",
     "front-end"
   ],
   "author": "Ahmad Ali <aallii300300@gmail.com> (https://www.ahmad-ali.co.uk/)",

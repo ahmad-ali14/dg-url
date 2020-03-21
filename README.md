@@ -32,7 +32,7 @@ node.js:
 ```javascript 
 var dg = require("dg-url");
 
-app.get(req, res) {
+app.get("/", req, res) {
 
 let url = //your shared photo's url (google drive or dropbox);
 

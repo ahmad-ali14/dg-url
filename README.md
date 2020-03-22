@@ -30,13 +30,15 @@ let url = //your shared photo's url (google drive or dropbox);
 node.js:
 
 ```javascript 
-var dg = require("dg-url");
+ar dg = require("dg-url");
 
-app.get("/", req, res) {
+app.get("/", (req, res) => {
 
 let url = //your shared photo's url (google drive or dropbox);
 
 req.redirect(dg(url)); //to the client
+
+} );
 
 } 
 

@@ -36,7 +36,7 @@ app.get("/", (req, res) => {
 
 let url = //your shared photo's url (google drive or dropbox);
 
-req.redirect(dg(url)); //to the client
+req.send( dg(url) ); //to the client
 
 } );
 

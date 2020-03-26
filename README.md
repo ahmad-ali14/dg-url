@@ -7,7 +7,7 @@
  
  Reform google drive and dropbox urls so you can host your photos on gDrive or dropbox then use them directly in your html code for img.src attribuite.
 
- dg-url is a client side function.
+ dg-url is a client & server side function.
 
 
 
@@ -36,7 +36,7 @@ node.js:
 * server
 */
 
-ar dg = require("dg-url");
+const dg = require("dg-url");
 
 app.get("/", (req, res) => {
 

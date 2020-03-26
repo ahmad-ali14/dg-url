@@ -53,7 +53,7 @@ req.render( 'index',  { imageSrc: dg(url) } ); //to the client
 * client : EJS
 */
 
-<img src = <%= imageSrc %> alt="" />
+<img src = <%= imageSrc %>   />
 
 
 ```
@@ -61,6 +61,8 @@ req.render( 'index',  { imageSrc: dg(url) } ); //to the client
 ## contact
 
  https://www.ahmad-ali.co.uk/
+ 
+ ahmadali14@acm.org
  
 ## licence 
 

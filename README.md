@@ -31,17 +31,29 @@ let url = //your shared photo's url (google drive or dropbox);
 node.js:
 
 ```javascript 
+
+/*
+* server
+*/
+
 ar dg = require("dg-url");
 
 app.get("/", (req, res) => {
 
 let url = //your shared photo's url (google drive or dropbox);
 
-req.send( dg(url) ); //to the client
+req.render( 'index',  { imageSrc: dg(url) } ); //to the client
 
 } );
 
-} 
+}
+
+
+/*
+* client : EJS
+*/
+
+<img src = <%= imageSrc %> alt="" />
 
 
 ```

@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/aa947/dg-url/issues"
   },
-  "homepage": "https://github.com/aa947/dg-url#readme"
+  "homepage": "https://github.com/aa947/dg-url#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }

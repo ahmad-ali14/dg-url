@@ -1,6 +1,6 @@
 {
   "name": "dg-url",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Reform google drive and dropbox urls so you can host your photos on gDrive or dropbox then use them directly in your html code for img.src attribuite. ",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,7 @@
     "url": "https://github.com/aa947/dg-url/issues"
   },
   "homepage": "https://github.com/aa947/dg-url#readme",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }

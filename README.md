@@ -99,6 +99,33 @@ you will get this answer:
  <a href="https://github.com/aa947/dg-url" title="github  github aa947 dg url ">life is complicated </a>
  
      ` text is provided by you, others came from the function `
+     
+     
+ 3-  give all data yourself:
+ ```jsx 
+ 
+ let options = {
+   text: 'life is complicated'  //link text that will be shown on the screen 
+   title : 'dg-url is awesome'  // text will pop up when hove over the link
+   target: '_blank' //target for the link
+   classes : 'red center' // classes you define your self, separated by space
+   style: 'text-decoration: none;' // inline css as string
+}
+
+<div id="dg-test">
+     { dg.anchor('dg-test', 'https://github.com/aa947/dg-url/', options ) }
+</div>
+
+ ```
+ result:
+ 
+  <a href="https://github.com/aa947/dg-url" class="red" title="dg-url is awesome" target="_blank" style="text-decoration:none;" >life is complicated </a>
+  
+<style>
+.red{
+ color: red;
+ }
+</style>
 ## contact
 
  https://www.ahmad-ali.co.uk/

@@ -72,15 +72,16 @@ req.render( 'index',  { imageSrc: dg.goobox(url) } ); //to the client
 ### 2- `dg.anchor(id, url, options:?{}, ...args)`
 
 1- the simplest cenario => let the function do its work:
+
 ```javascript
 <div id="dg-test">
      { dg.anchor('dg-test', 'https://github.com/aa947/dg-url/' ) }
 </div>
 ```
-      will give you this link:  
+ will give you this link:  
       
-      <a href="https://github.com/aa947/dg-url" title="github  github aa947 dg url ">github aa947 dg url </a>
- 
+ <a href="https://github.com/aa947/dg-url" title="github  github aa947 dg url ">github aa947 dg url </a>
+
 2- provide some anchor data and let the function do the rest:
 ```javascript
 
@@ -93,9 +94,10 @@ let options = {
 </div>
 
 ```
-     you will get this answer:  
+you will get this answer:  
      
-     <a href="https://github.com/aa947/dg-url" title="github  github aa947 dg url ">life is complicated </a>
+ <a href="https://github.com/aa947/dg-url" title="github  github aa947 dg url ">life is complicated </a>
+ 
      ` text is provided by you, others came from the function `
 ## contact
 

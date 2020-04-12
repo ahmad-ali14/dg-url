@@ -102,7 +102,8 @@ you will get this answer:
      
      
  3-  give all data yourself:
- ```jsx 
+ 
+ ```javascript
  
  let options = {
    text: 'life is complicated'  //link text that will be shown on the screen 
@@ -117,9 +118,10 @@ you will get this answer:
 </div>
 
  ```
+ 
  result:
  
-  <a href="https://github.com/aa947/dg-url" class="red" title="dg-url is awesome" target="_blank" style="text-decoration:none; color:red;" >life is complicated </a>
+ <a href="https://github.com/aa947/dg-url" class="red" title="dg-url is awesome" target="_blank" style="text-decoration:none; color:red;" >life is complicated </a>
   
 
 ## contact

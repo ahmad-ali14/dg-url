@@ -1,4 +1,4 @@
-# dg-url : javascript library that gives you handy functionalities to work with urls
+# dg-url :  handy functionalities to work with urls
 [![Build Status](https://travis-ci.org/aa947/dg-url.svg?branch=master)](https://travis-ci.org/aa947/dg-url)  [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) ![](https://david-dm.org/aa947/dg-url.svg) 
 [![Package Quality](https://npm.packagequality.com/shield/dg-url.svg)](https://packagequality.com/#?package=dg-url)
 ![npm](https://img.shields.io/npm/dt/dg-url)
@@ -99,7 +99,7 @@ you will get this answer:
      
  <a href="https://github.com/aa947/dg-url" title="github  github aa947 dg url ">life is complicated </a>
  
-     ` text is provided by you, others came from the function `
+ text is provided by you, others came from the function
      
      
  3-  give all data yourself:

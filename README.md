@@ -13,7 +13,10 @@ dg-url is a javascript library that gives you handy functionalities to work with
 
  dg-url is a client & server side function.
 
-### 2- `dg.anchor()` 
+### 2- `dg.anchor()` :
+automatically generate fully functional anchor tags, with the text and the title automatically extracted from the submitted url. 
+
+you have options to enter your own data, or stop the function completely, or leave it to do the work, or you can overwrite some of its data. 
 
 
 

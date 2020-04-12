@@ -26,6 +26,7 @@ you have options to enter your own data, or stop the function completely, or lea
  
 ## usage:
 
+### 1- `dg.goobox(url)` 
 react.js:
 
 ```javascript
@@ -33,7 +34,7 @@ import dg from "dg-url";
 
 let url = //your shared photo's url (google drive or dropbox);
 
-<img src={ dg(url) } / >
+<img src={ dg.goobox(url) } / >
 
 ```
 
@@ -51,7 +52,7 @@ app.get("/", (req, res) => {
 
 let url = //your shared photo's url (google drive or dropbox);
 
-req.render( 'index',  { imageSrc: dg(url) } ); //to the client
+req.render( 'index',  { imageSrc: dg.goobox(url) } ); //to the client
 
 } );
 
@@ -66,6 +67,9 @@ req.render( 'index',  { imageSrc: dg(url) } ); //to the client
 
 
 ```
+<hr />
+
+### 2- `dg.anchor(id, url, options :?{}, ...args)`
 
 ## contact
 

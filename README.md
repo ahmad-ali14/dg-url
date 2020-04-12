@@ -4,10 +4,16 @@
 ![npm](https://img.shields.io/npm/dt/dg-url)
 
 ## overview
+
+dg-url is a javascript library that gives you handy functionalities to work with urls. 
+
+### 1- `dg.goobox()`:
  
  Reform google drive and dropbox urls so you can host your photos on gDrive or dropbox then use them directly in your html code for img.src attribuite.
 
  dg-url is a client & server side function.
+
+### 2- `dg.anchor()` 
 
 
 

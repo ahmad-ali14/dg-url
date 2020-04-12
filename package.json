@@ -1,7 +1,7 @@
 {
   "name": "dg-url",
   "version": "1.1.0",
-  "description": "convert google drive and dropbox urls so you can use them directly as a source of your images. ",
+  "description": "dg-url is a javascript library that gives you handy functionalities to work with urls.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"

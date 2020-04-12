@@ -47,7 +47,8 @@
       a.innerHTML="test link google";
 
       if(!empty){
-        a.text =`${main} - ${new_orginising_str}`;
+        a.text = new_orginising_str;
+        a.title =`${main}  ${new_orginising_str}`;
       } 
     
       if(classess) { a.className = classess }
@@ -72,7 +73,7 @@
       style: " color: blue; "
 
     }
-    const app = html`<div id="link">${ anchor('link' , 'https://google.com/api/ahmad-ali_me/33') } </div>`;
+    const app = html`<div id="link">${ anchor('link' , 'https://github.com/aa947/dg-url') } </div>`;
     render(app, document.body);
   </script>
   <style>
@@ -81,6 +82,9 @@
     }
     .big{
       font-size: larger;
+    }
+    a{
+      
     }
   </style>
   

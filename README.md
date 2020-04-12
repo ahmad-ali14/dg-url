@@ -119,13 +119,9 @@ you will get this answer:
  ```
  result:
  
-  <a href="https://github.com/aa947/dg-url" class="red" title="dg-url is awesome" target="_blank" style="text-decoration:none;" >life is complicated </a>
+  <a href="https://github.com/aa947/dg-url" class="red" title="dg-url is awesome" target="_blank" style="text-decoration:none; color:red;" >life is complicated </a>
   
-<style>
-.red{
- color: red;
- }
-</style>
+
 ## contact
 
  https://www.ahmad-ali.co.uk/

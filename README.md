@@ -69,8 +69,14 @@ req.render( 'index',  { imageSrc: dg.goobox(url) } ); //to the client
 ```
 <hr />
 
-### 2- `dg.anchor(id, url, options :?{}, ...args)`
+### 2- `dg.anchor(id, url, options:?{}, ...args)`
 
+1- the easiest cenario:
+```javascript
+<div id="dg-test">
+     { dg.anchor('dg-test', 'https://github.com/aa947/dg-url/' ) }
+```
+ will give you this link:  <a href="https://github.com/aa947/dg-url/">github  github aa947 dg url </a>
 ## contact
 
  https://www.ahmad-ali.co.uk/

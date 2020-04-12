@@ -15,15 +15,15 @@
     "dropbox",
     "url",
     "photo hosting",
-    "front-end"
+    "front-end", 
+    "url",
+    "extract data",
+    "automative"
   ],
   "author": "Ahmad Ali <aallii300300@gmail.com> (https://www.ahmad-ali.co.uk/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aa947/dg-url/issues"
   },
-  "homepage": "https://github.com/aa947/dg-url#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "homepage": "https://github.com/aa947/dg-url#readme"
 }

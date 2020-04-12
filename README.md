@@ -1,4 +1,4 @@
-# dg-url : use google drive and dropbox as hosting services
+# dg-url : javascript library that gives you handy functionalities to work with urls
 [![Build Status](https://travis-ci.org/aa947/dg-url.svg?branch=master)](https://travis-ci.org/aa947/dg-url)  [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) ![](https://david-dm.org/aa947/dg-url.svg) 
 [![Package Quality](https://npm.packagequality.com/shield/dg-url.svg)](https://packagequality.com/#?package=dg-url)
 ![npm](https://img.shields.io/npm/dt/dg-url)
@@ -83,6 +83,7 @@ req.render( 'index',  { imageSrc: dg.goobox(url) } ); //to the client
  <a href="https://github.com/aa947/dg-url" title="github  github aa947 dg url ">github aa947 dg url </a>
 
 2- provide some anchor data and let the function do the rest:
+
 ```javascript
 
 let options = {
@@ -122,13 +123,32 @@ you will get this answer:
  result:
  
  <a href="https://github.com/aa947/dg-url" class="red" title="dg-url is awesome" target="_blank" style="text-decoration:none; color:red;" >life is complicated </a>
-  
+ 
+ 
+4- you don't give all data yourself and you can prevent function from filling up by passing `"empty"` as a parameter:
+
+```javascript
+
+let options = {
+   text: 'life is complicated'  //link text that will be shown on the screen 
+}
+
+<div id="dg-test">
+     { dg.anchor('dg-test', 'https://github.com/aa947/dg-url/', options, empty ) }
+</div>
+
+```
+you will get this answer:  
+     
+<a href="https://github.com/aa947/dg-url" >life is complicated </a>
+
+`you have to provide text yourself, otherwise will be empty`
 
 ## contact
 
  https://www.ahmad-ali.co.uk/
  
- ahmadali14@acm.org
+ ahmad.ali14@zohomail.eu
  
 ## licence 
 

@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/aa947/dg-url.svg?branch=master)](https://travis-ci.org/aa947/dg-url)   ![](https://david-dm.org/aa947/dg-url.svg) 
 [![Package Quality](https://npm.packagequality.com/shield/dg-url.svg)](https://packagequality.com/#?package=dg-url)
 ![npm](https://img.shields.io/npm/dt/dg-url)
+[![version](https://img.shields.io/badge/version-1.1.2-blue)](#)
 
 ## overview
 

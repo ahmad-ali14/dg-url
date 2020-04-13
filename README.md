@@ -144,6 +144,15 @@ you will get this answer:
 
 `you have to provide text yourself, otherwise will be empty`
 
+## Tests 
+- inside `tests` folder there is a `test.html` file, you can test the functions there.
+- dynamic testing soon.
+
+## TODOS
+- make it aware of query params.
+- for now it's ignoring any part of url witch is completely numbers, make it extract numbers from the text and delete it.
+- make it smarter when preparing the link text.
+
 ## contact
 
  https://www.ahmad-ali.co.uk/

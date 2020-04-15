@@ -1,6 +1,6 @@
 {
   "name": "dg-url",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "dg-url is a javascript library that gives you handy functionalities to work with urls.",
   "main": "index.js",
   "scripts": {
@@ -15,15 +15,19 @@
     "dropbox",
     "url",
     "photo hosting",
-    "front-end", 
+    "front-end",
     "url",
     "extract data",
     "automative"
   ],
   "author": "Ahmad Ali <aallii300300@gmail.com> (https://www.ahmad-ali.co.uk/)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/aa947/dg-url/issues"
   },
-  "homepage": "https://github.com/aa947/dg-url#readme"
+  "homepage": "https://github.com/aa947/dg-url#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  }
 }

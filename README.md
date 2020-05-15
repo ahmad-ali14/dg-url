@@ -5,13 +5,14 @@
 ![npm](https://img.shields.io/npm/dt/dg-url)
 [![version](https://img.shields.io/badge/version-1.2.1-blue)](#)
 
-## overview
-
-dg-url is a javascript library that gives you handy functionalities to work with urls.
-
 ## Issues
 
 please report any issues or bugs, or ask any question here: <https://github.com/ahmad-ali14/dg-url/issues>
+
+
+## overview
+
+dg-url is a javascript library that gives you handy functionalities to work with urls.
 
 ### 1- `dg.goobox()`:
 

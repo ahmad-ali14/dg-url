@@ -39,8 +39,7 @@ react.js:
 ```javascript
 import dg from "dg-url";
 
-let url = <img src={dg.goobox(url) //your shared photo's url (google drive or dropbox);
-    } />;
+<img src={dg.goobox(url) //your shared photo's url (google drive or dropbox); } />;
 ```
 
 node.js:

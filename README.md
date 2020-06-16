@@ -82,12 +82,6 @@ req.render( 'index',  { imageSrc: dg.goobox(url) } ); //to the client
 
 - live at: https://url-converter-for-gdrive-dropbox.netlify.app/
 
-## TODOS
-
-- make it aware of query params.
-- for now it's ignoring any part of url witch is completely numbers, make it extract numbers from the text and delete it.
-- make it smarter when preparing the link text.
-
 ## contact
 
 https://www.ahmad-ali.co.uk/

@@ -1,6 +1,6 @@
 {
   "name": "dg-url",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "dg-url is a javascript library that gives you handy functionalities to work with urls.",
   "main": "index.js",
   "scripts": {

@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `anchorx()`: deprecated
 - we only support `goobox()`.
 - `goobox()` in exported by default so you can give it any name you want.
+- tests if the url is already direct url before changing it.
 
 ## [1.2.1] - 15-may-2020
 

@@ -25,9 +25,5 @@
   "bugs": {
     "url": "https://github.com/aa947/dg-url/issues"
   },
-  "homepage": "https://github.com/aa947/dg-url#readme",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "cheerio": "^1.0.0-rc.3"
-  }
+  "homepage": "https://github.com/aa947/dg-url#readme"
 }

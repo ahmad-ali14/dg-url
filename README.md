@@ -1,4 +1,4 @@
-# dg-url : handy functionalities to work with urls
+# dg-url : dropbox and google drive url converter
 
 [![Build Status](https://travis-ci.org/aa947/dg-url.svg?branch=master)](https://travis-ci.org/ahmad-ali14/dg-url) ![](https://david-dm.org/ahmad-ali14/dg-url.svg)
 [![Package Quality](https://npm.packagequality.com/shield/dg-url.svg)](https://packagequality.com/#?package=dg-url)

@@ -86,4 +86,4 @@ req.render( 'index',  { imageSrc: dg.goobox(url) } ); //to the client
 
 https://www.ahmad-ali.co.uk/
 
-ahmad.ali14@zohomail.eu
+ahmad.ali.uk14@gmail.com

@@ -1,9 +1,8 @@
 # dg-url : dropbox and google drive url converter
 
-[![Build Status](https://travis-ci.org/aa947/dg-url.svg?branch=master)](https://travis-ci.org/ahmad-ali14/dg-url) ![](https://david-dm.org/ahmad-ali14/dg-url.svg)
 [![Package Quality](https://npm.packagequality.com/shield/dg-url.svg)](https://packagequality.com/#?package=dg-url)
 ![npm](https://img.shields.io/npm/dt/dg-url)
-[![version](https://img.shields.io/badge/version-1.3.0-blue)](#)
+[![version](https://img.shields.io/badge/version-1.3.2-blue)](#)
 
 ## Issues
 
@@ -64,7 +63,7 @@ app.get("/", (req, res) => {
 
 let url = //your shared photo's url (google drive or dropbox);
 
-req.render( 'index',  { imageSrc: dg.goobox(url) } ); //to the client
+req.render( 'index',  { imageSrc: dg(url) } ); //to the client
 
 } );
 
